@@ -1,0 +1,52 @@
+mat-expansion-panel {
+  background: #f4f4f4;
+  p {
+    color: var(--primary-color);
+  }
+}
+
+mat-card-title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+p {
+  margin: 0 11px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mat-mdc-list-item-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.item-head {
+  background: #4f008c;
+  color: #fff;
+  display: flex;
+  mat-list-item {
+    color: #fff;
+    .mat-list-item-content {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  .add {
+    background: #ffffff78;
+    color: #fff;
+    margin: 8px 17px 0 0;
+  }
+}
+
+.custom-item-list {
+  background: #f4f4f4;
+  margin-top: 3px;
+}
+
+mat-list {
+  a:hover,
+  .active {
+    color: var(--primary-color);
+    background-color: #bab3b3;
+  }
+}

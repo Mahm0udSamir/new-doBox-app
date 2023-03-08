@@ -1,0 +1,19 @@
+mat-sidenav-container {
+  height: 94vh;
+  width: 100vw;
+  // margin-left: 5vw;
+}
+mat-sidenav {
+  background: var(--primary-color);
+}
+
+a:hover,
+.active {
+  background: #604e6e;
+  border-left: red solid;
+  background: #604e6e;
+}
+
+.row {
+  margin: 0;
+}
