@@ -5,9 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { ComponentModule } from './core/components/component.module';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { HttpClientModule } from '@angular/common/http';
+import { ComponentsModule } from './core/components/components.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,8 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule,
-    ComponentModule,
+    ComponentsModule,
     HttpClientModule,
   ],
   providers: [],

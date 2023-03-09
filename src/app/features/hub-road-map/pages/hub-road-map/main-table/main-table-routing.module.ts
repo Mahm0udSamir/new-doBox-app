@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MainTableComponent } from './main-table.component';
 
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () =>
-      import('./features/features.module').then((m) => m.FeaturesModule),
+    component: MainTableComponent,
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class MainTableRoutingModule {}

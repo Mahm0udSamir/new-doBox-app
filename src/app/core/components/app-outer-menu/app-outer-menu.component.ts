@@ -20,7 +20,7 @@ export class AppOuterMenuComponent implements OnInit {
     {
       label: 'HUB Road Map',
       icon: 'home',
-      link: '/',
+      link: 'hub',
     },
     {
       label: 'Dobox',

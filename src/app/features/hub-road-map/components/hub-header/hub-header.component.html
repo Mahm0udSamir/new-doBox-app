@@ -1,0 +1,32 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>HUB Road Map</mat-card-title>
+    <mat-card-subtitle>Mangae All tasks in your platform</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button
+      routerLink="/hub"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      mat-button
+    >
+      Kanban
+    </button>
+    <button
+      routerLink="table"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      mat-button
+    >
+      Main Table
+    </button>
+    <button
+      routerLink="dashboard"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      mat-button
+    >
+      Dashboard
+    </button>
+  </mat-card-actions>
+</mat-card>
